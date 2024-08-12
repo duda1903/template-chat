@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body{
+    background: black;
+}
+
+#esp{ 
+    font-family: "Orbitron";
+    font-size: 25px;
+}
+
+#cine{
+    font-family: "Orbitron";
+    font-size: 25px;
+}
+
+#mus{
+    font-family: "Orbitron";
+    font-size: 25px;
+}
+
+#lit{
+    font-family: "Orbitron";
+    font-size: 25px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: conter;
+    margin-top: 0px; 
+    align-items: center;
+  }
+
+    /* Estilos para os botões */
+    .btn-custom-esportes,
+    .btn-custom-cinema,
+    .btn-custom-musica,
+    .btn-custom-literatura {
+      width: 1450px; /* Largura dos botões */
+      height: 130px; /* Altura dos botões */
+      margin: 18px; /* Espaçamento entre os botões */
+      border-color: transparent !important; /* Remover a borda ao focar (importante para sobrescrever o estilo padrão) */
+      outline: none; /* Remover a borda ao focar no Firefox */
+    }
+
+    .btn-custom-esportes {
+      background-color: #6100FF; /* Azul dodger */
+      color: #ffffff; /* Cor do texto */
+    }
+
+    .btn-custom-esportes:hover {
+      background-color: #5901e7; /* Azul primário ao passar o mouse */
+      color: #ffffff; /* Manter a cor do texto branca */
+    }
+
+    #esportes{
+        margin-top: -140px;
+        margin-left: 50px;
+    }
+
+    .btn-custom-cinema {
+      background-color: #FF0000; /* Vermelho escuro */
+      color: #ffffff; /* Cor do texto */
+    }
+
+    .btn-custom-cinema:hover {
+      background-color: #de0000; /* Vermelho mais escuro ao passar o mouse */
+      color: #ffffff; /* Manter a cor do texto branca */
+    }
+
+    #cinema{
+        margin-top: -140px;
+        margin-left: 50px;
+    }
+
+    .btn-custom-musica {
+      background-color: #FF00C7; /* Amarelo */
+      color: #ffffff; /* Cor do texto */
+    }
+
+    .btn-custom-musica:hover {
+      background-color: #e402b3; /* Amarelo mais escuro ao passar o mouse */
+      color: #ffffff; /* Manter a cor do texto branca */
+    }
+
+    #musica{
+        margin-top: -140px;
+        margin-left: 50px;
+    }
+
+    .btn-custom-literatura {
+      background-color: #47DF00; /* Verde */
+      color: #ffffff; /* Cor do texto */
+    }
+
+    .btn-custom-literatura:hover {
+      background-color: #3fc700; /* Verde mais escuro ao passar o mouse */
+      color: #ffffff; /* Manter a cor do texto branca */
+    }
+
+    #literatura{
+        margin-top: -140px;
+        margin-left: 50px;
+    }
+
+    #pag2{
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 25px;
+        margin-top: -118px;
+        margin-left: 1350px;
+    }
+
+    #pag4{
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 25px;
+        margin-top: -118px;
+        margin-left: 1350px;
+    }
+
+    #pag6{
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 25px;
+        margin-top: -118px;
+        margin-left: 1350px;
+    }
+
+    #pag8{
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 25px;
+        margin-top: -118px;
+        margin-left: 1350px;
+    }
+
+    /*------------------------------------------------ SALA 2 -----------------------------------------------------*/
+
+    
+    .chat-header {
+        border-bottom: none; 
+        background-color: transparent; 
+    }
+    
+    .chat-body {
+        height: calc(100vh - 150px);
+        overflow-y: auto;
+    }
+    
+    .message {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .message-bubble {
+        background-color: #6100FF;
+        color: white;
+        padding: 20px; 
+        border-radius: 10px;
+        max-width: 100%;
+        width: 30%;
+
+    }
+    
+    .sent {
+        justify-content: flex-end;
+    }
+    
+    .received {
+        justify-content: flex-start;
+    }
+    
+    .chat-footer {
+        border-top: 1px solid #555;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .chat-footer .form-control {
+        background-color: #6100FF;
+        border: none;
+        color: white;
+    }
+    
+    .chat-footer .form-control::placeholder {
+        color: white;
+    }
+    
+    a.no-underline {
+        text-decoration: none; 
+    }
+
+    /*------------------------------------------------ SALA 4 -----------------------------------------------------*/
+
+     .chat-header {
+        border-bottom: none; 
+        background-color: transparent; 
+    }
+    
+    .chat-body {
+        height: calc(100vh - 150px);
+        overflow-y: auto;
+    }
+    
+    .message {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .message-bubble4 {
+        background-color: #FF0000;
+        color: white;
+        padding: 20px; 
+        border-radius: 10px;
+        max-width: 100%;
+        width: 30%;
+
+    }
+    
+    .sent {
+        justify-content: flex-end;
+    }
+    
+    .received {
+        justify-content: flex-start;
+    }
+    
+    .chat-footer {
+        border-top: 1px solid #555;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .chat-footer4 .form-control {
+        background-color: #FF0000;
+        border: none;
+        color: white;
+    }
+    
+    .chat-footer .form-control::placeholder {
+        color: white;
+    }
+    
+    a.no-underline {
+        text-decoration: none; 
+    }
+
+ /*------------------------------------------------ SALA 6 -----------------------------------------------------*/
+
+ .chat-header {
+    border-bottom: none; 
+    background-color: transparent; 
+}
+
+.chat-body {
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message-bubble6 {
+    background-color: #FF00C7;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    max-width: 100%;
+    width: 30%;
+
+}
+
+.sent {
+    justify-content: flex-end;
+}
+
+.received {
+    justify-content: flex-start;
+}
+
+.chat-footer {
+    border-top: 1px solid #555;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.chat-footer6 .form-control {
+    background-color: #FF00C7;
+    border: none;
+    color: white;
+}
+
+.chat-footer .form-control::placeholder {
+    color: white;
+}
+
+a.no-underline {
+    text-decoration: none; 
+}
+
+/*------------------------------------------------ SALA 8 -----------------------------------------------------*/
+
+.chat-header {
+    border-bottom: none; 
+    background-color: transparent; 
+}
+
+.chat-body {
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message-bubble8 {
+    background-color: #3fc700;
+    color: white;
+    padding: 20px; 
+    border-radius: 10px;
+    max-width: 100%;
+    width: 30%;
+
+}
+
+.sent {
+    justify-content: flex-end;
+}
+
+.received {
+    justify-content: flex-start;
+}
+
+.chat-footer {
+    border-top: 1px solid #555;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.chat-footer8 .form-control {
+    background-color: #3fc700;
+    border: none;
+    color: white;
+}
+
+.chat-footer .form-control::placeholder {
+    color: white;
+}
+
+a.no-underline {
+    text-decoration: none; 
+}
+
+/*-------------------------------------*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body{
+    background-color: black !important;
+}
+
+.container {
+    text-align: center;
+}
+
+#welcome{
+    font-family: "Orbitron", sans-serif;
+    font-size: 100px;
+    letter-spacing: 15px;
+    margin-bottom: -40px;
+    margin-top: 20%;
+}
+
+#chat{
+    font-family: "Orbitron", sans-serif;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+
+.color1{
+    color: #6100FF;
+}
+
+.color2{
+    color: #FF0000;
+}
+
+.color3{
+    color: #FF00C7;
+}
+
+.color4{
+    color: #47DF00;
+}
+
+.logo{
+    margin-top: 10%;
+    width: 15%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.logo:hover{
+    opacity: 0.8;
+    width: 16%;
+    height: 21%;
+    transition: 0.5s;
+}
+
+/*pagina de login*/
+
+
+.wrapper {
+    position: relative;
+    height: 100vh; /* Ajusta a altura para ocupar toda a viewport */
+}
+
+.input-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #6100FF;
+    background-color: rgba(217, 217, 217, 0.8);
+    color: #6100FF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    width: 500px;
+    outline: none;
+}
+
+.send{
+    width: 40px;
+    height: 40px;
+    margin-top: 13.5%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.input-name::placeholder{
+    color: #6100FF;
+}
+
+.logoLog {
+    display: block;
+    margin-left: 45%;
+    margin-top: 10%;
+    width: 180px; 
+}
